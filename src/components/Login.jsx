@@ -11,7 +11,6 @@ export function Login(){
 
     return(
       <div>
-
       <label>
         Name: <input name="myInput" />
       </label>

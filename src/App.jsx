@@ -4,13 +4,15 @@ import './App.css';
 
 // Componentes
 import { Login } from './components/Login';
-import { Home } from './components/Home';
+import { Home } from './view/Home';
 
 export function App() {
   return (
+    
     <Router>
       <Routes>
         <Route path="/login" element={<Login />} />
+        
         <Route path="/home" element={<Home />} />
         <Route path="/" element={<Login />} />
       </Routes>
