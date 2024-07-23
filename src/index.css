@@ -2,3 +2,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Egyptian';
+  src: url('./fonts/LmsEgyptianBookends-lKw0.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Egyptian';
+  src: url('./fonts/LmsEgyptianBookends-lKw0.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'books';
+  src: url('./fonts/Bookends-BWw8V.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'books';
+  src: url('./fonts/Bookends-BWw8V.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
